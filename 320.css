@@ -1,0 +1,43 @@
+@media screen and (max-width: 320px) {
+    .menu {
+        height: 180px;
+    }
+    
+    .header-nav {
+        text-align: left;
+        position: relative;
+    }
+
+    .rusIntBlack-logo {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    
+    .header-nav1_container_1 a {
+        font-size: 18px;
+        position: absolute;  
+        top: 130px;   
+        left: 10px;
+    }
+
+    .header-nav1_container_2 a {
+        font-size: 18px;
+        position: absolute;  
+        top: 130px;   
+        left: 100px;
+    }
+
+    .header-nav1_container_3 a {
+        font-size: 18px;
+        position: absolute;  
+        top: 130px;   
+        left: 180px;
+    }
+
+    .header-nav1_container_spb a {
+        font-size: 14px;
+        position: absolute;
+        top: 25px;
+        left: 140px;
+    }
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width:768px){
+    .header-nav {
+        justify-content: left;
+      }
+    
+    .header-nav1_container_1 a {
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .header-nav1_container_2 a {
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .header-nav1_container_3 a {
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .header-nav1_container_spb a {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .header-nav1_container_spb {
+        margin-top: 30px;
+    }
+}
