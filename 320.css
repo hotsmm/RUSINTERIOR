@@ -1,0 +1,96 @@
+@media (max-width: 375px) and (min-width:320px){
+    .menu {
+        height: 160px;
+    }
+
+    nav {
+        width: 320px;
+    }
+    
+    .header-nav {
+        text-align: left;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .rusIntBlack-logo {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    
+    .header-nav1_container_1 a {
+        font-size: 18px;
+        position: absolute;  
+        top: 120px;   
+        left: 0;
+    }
+
+    .header-nav1_container_2 a {
+        font-size: 18px;
+        position: absolute;  
+        top: 120px;   
+        left: 100px;
+    }
+
+    .header-nav1_container_3 a {
+        font-size: 18px;
+        position: absolute;  
+        top: 120px;   
+        left: 180px;
+        margin-right: 0;
+    }
+
+    .header-nav1_container_spb {
+        position: absolute;
+        top: 5px;
+        left: 150px;
+        margin-right: 0;
+    }
+
+    .spb {
+        font-size: 12px;
+        padding-bottom: 5px;
+        margin-right: 0;
+    }
+
+    .header-nav1_container_spb a{
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .doors-partitions{
+        display: none;
+    }
+
+    .government {
+        display: none;
+    }
+    
+    .tasks {
+        display: none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .benefet {
+        display: none
+    }
+
+    .production {
+        display: none;
+    }
+
+    .variation_furniture {
+        display: none;
+    }
+
+    .doors {
+        display: none;
+    }
+}

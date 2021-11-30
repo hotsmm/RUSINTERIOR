@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@font-face{
+  src: url(/Roboto-Medium.ttf);
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+body *{
+    box-sizing: border-box;
+  }
+
+.menu {
+    width: 100%;
+    background-color: black;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+nav {
+  width: 1310px;
+  text-align: center; 
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  
+}
+
+li {
+  list-style-type: none; 
+  padding-top: 36px;
+}
+
+.header-nav1_container_1 a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff; 
+    font-size: 26px;
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.header-nav1_container_2 a {
+  text-decoration: none;
+  font-weight: normal;
+  color: #ffffff; 
+  font-size: 26px;
+  font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.header-nav1_container_3 a {
+  text-decoration: none;
+  font-weight: normal;
+  color: #ffffff; 
+  font-size: 26px;
+  font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.header-nav1_container_spb {
+  display: flex;
+  flex-direction: column;
+  padding-top: 26px;
+}
+
+.header-nav1_container_spb a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(250, 226, 6); 
+  background: linear-gradient(to right, #cc9900 0%,  #ffff88 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-style: normal;
+  margin-right: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.spb {
+  font-weight: bolder;
+  color: rgb(250, 226, 6); 
+  background: linear-gradient(to right, #cc9900 0%,  #ffff88 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-style: normal;
+  margin-right: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.rusIntBlack-logo {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.main {
+  width: 100%;
+}
+
+.header {
+  color: #3D2B1F;
+  width: 1310px;
+  /*margin: 0 auto;*/
+  padding-top: 190px;
+}
+
+h1 {
+  width: 810px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 58px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 100px;
+}
+
+.doors-partitions {
+  width: 1310px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+}
+
+.doors-partitions_furniture {
+  width: 400px;
+  margin: 13px;
+}
+
+.furniture {
+  width: 400px;
+  height: 280px;
+  margin-bottom: 40px;
+}
+
+.furniture_center {
+  width: 410px;
+  height: 340px;
+  margin-bottom: -15px;
+}
+
+.doors-partitions_text {
+  font-family: 'Roboto', sans-serif;
+  text-align: center ;
+  font-size: 24px ;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.government {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.government_commercial {
+  margin: 60px;
+}
+
+.residental {
+  border-radius: 50%;
+  width: 250px;
+  height: 230px;
+}
+
+.tasks {
+  width: 900px;
+  margin: 0 auto;
+}
+
+button {
+  background: linear-gradient(to right, #ffff66 0%, #cc9900 100%);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+  border: transparent ;
+  border-radius: 10px 100px / 120px;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+h2 {
+  font-size: 52px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.benefet {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.advantage-working {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.RUSI {
+  width: 230px;
+}
+
+.quality {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  text-align: center;
+}
+
+.production{
+  width: 1310px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.own_production {
+  width: 620px;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+.optimization {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px ;
+}
+
+.optimization_container {
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
+.optimization_button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px ;
+  width: 320px;
+}
+
+.design_img {
+  width: 620px;
+  margin-top: 50px;
+}
+
+.variation_furniture {
+  width: 1310px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.carcass {
+  width: 400px;
+}
+
+.soft {
+  width: 400px;
+}
+
+.metal {
+  width: 400px;
+}
+
+.doors {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.door_wall {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.doorsdown {
+  width: 450px;
+  height: 350px;
+  margin-right: 10px;
+}
+
+.wallpanel {
+  width: 450px;
+  height: 350px;
+}
