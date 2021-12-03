@@ -1,0 +1,101 @@
+@media screen and (max-width: 425px) {
+    .menu {
+        height: 70px;
+    }
+
+    nav {
+        width: 420px;
+    }
+    
+    .header-nav {
+        text-align: left;
+        position: relative;
+    }
+
+    .rusIntBlack-logo {
+       /* margin-left: 0;
+        padding-top: 10px;*/
+        display: none;
+    }
+    
+    .header-nav1_container_1 a {
+        font-size: 20px;
+        font-weight: bolder;
+        position: absolute;  
+        top: 20px;   
+        left: 20px;
+        background: linear-gradient(to right, #cc9900 0%,  #ffff88 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .header-nav1_container_2 a {
+        font-size: 20px;
+        font-weight: bolder;
+        position: absolute;  
+        top: 20px;   
+        left: 150px;
+        background: linear-gradient(to right, #cc9900 0%,  #ffff88 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .header-nav1_container_3 a {
+        font-size: 20px;
+        font-weight: bolder;
+        position: absolute;  
+        top: 20px;   
+        left: 250px;
+        background: linear-gradient(to right, #cc9900 0%,  #ffff88 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .header-nav1_container_spb {
+        /*position: absolute;
+        top: 10px;
+        left: 200px;*/
+        display: none;
+    }
+
+    .spb {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    .header-nav1_container_spb a{
+        font-size: 16px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .doors-partitions{
+        display: none;
+    }
+
+    .government {
+        display: none;
+    }
+    
+    .tasks {
+        display: none;
+    }
+
+    .benefet {
+        display: none
+    }
+
+    .production {
+        display: none;
+    }
+
+    .variation_furniture {
+        display: none;
+    }
+
+    .doors {
+        display: none;
+    }
+}
